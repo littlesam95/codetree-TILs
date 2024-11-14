@@ -227,6 +227,10 @@ void settings() {
             get_Belt_Info(nowQueries);
         }
     }
+
+    for (int i = 0; i <= N; i++) {
+        DQ[i].clear();
+    }
 }
 
 int main() {
